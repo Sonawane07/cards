@@ -1,0 +1,42 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-image: url(./images/background2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#cards{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+
+}
+#cont{
+
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+}
+#cont div{
+    width: 25%;
+    background-color: orange;
+    border-radius: 5px;
+}
+#cont div img{
+    width: 100%;
+    height: 300px;
+    border-radius: 5px;
+    opacity: 0.5;
+}
+#cont div h1{
+    text-align: center;
+}
+#cont div p{
+    text-align: center;
+    padding: 20px;
+}
+#cont div img:hover{
+    opacity: 1;
+    transform: scale(1.3);
+    transition: 3s;
+}
